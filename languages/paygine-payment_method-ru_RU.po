@@ -1,0 +1,319 @@
+# Copyright (C) 2024 Method
+# This file is distributed under the GPL3.
+msgid ""
+msgstr ""
+"Project-Id-Version: Method payment module 3.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/paygine\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-07-25T14:26:37+00:00\n"
+"PO-Revision-Date: 2024-07-25T14:26:37+00:00\n"
+"X-Generator: WP-CLI 2.9.0\n"
+"X-Domain: paygine-payment_method\n"
+
+#. Plugin Name of the plugin
+msgid "Method payment module"
+msgstr "Модуль оплаты Method"
+
+#. Plugin URI of the plugin
+msgid "https://methodpay.ru/"
+msgstr "https://methodpay.ru/"
+
+#. Description of the plugin
+msgid "Receive payments via Visa / Mastercard / MIR easily with Method bank cards processing"
+msgstr "Получайте платежи через Visa / Mastercard / МИР с процессингом банковских карт Method"
+
+#. Author of the plugin
+#: paygine-payment_method.php:64
+#: paygine-payment_method.php:300
+msgid "Method"
+msgstr "Method"
+
+#: paygine-payment_method.php:65
+msgid "To accept payments through the plugin, you need to apply to connect to Method on the website <a href=\"%1$s\" target=\"_blank\">%1$s</a> and enter into an agreement with the company.<br/>Support email: <a href=\"mailto:%2$s\">%2$s</a>"
+msgstr "Для приема платежей через плагин необходимо подать заявку на подключение к Method на сайте <a href=\"%1$s\" target=\"_blank\">%1$s</a> и заключить договор с компанией.<br/>Электронная почта службы поддержки: <a href=\"mailto:%2$s\">%2$s</a>"
+
+#: paygine-payment_method.php:75
+#: paygine-payment_method.php:301
+msgid "Payments with bank cards via the <a href=\"%s\" target=\"_blank\">Method</a> payment system."
+msgstr "Платежи по банковским картам (Visa, Mastercard, МИР) через платёжную систему <a href=\"%s\" target=\"_blank\">Method</a>."
+
+#: paygine-payment_method.php:98
+msgid "Pay for your order in installments"
+msgstr "Оплатите заказ частями"
+
+#: paygine-payment_method.php:122
+msgid "Enable/Disable"
+msgstr "Включить/Выключить"
+
+#: paygine-payment_method.php:124
+msgid "Enable Method checkout method"
+msgstr "Включить использование метода платежа Method"
+
+#: paygine-payment_method.php:128
+msgid "Title"
+msgstr "Название"
+
+#: paygine-payment_method.php:130
+msgid "Custom title for payment type"
+msgstr "Свое название для типа платежа"
+
+#: paygine-payment_method.php:136
+msgid "Description"
+msgstr "Описание"
+
+#: paygine-payment_method.php:138
+msgid "Custom description for payment type"
+msgstr "Свое описание для типа платежа"
+
+#: paygine-payment_method.php:144
+msgid "Logo"
+msgstr "Логотип"
+
+#: paygine-payment_method.php:146
+msgid "Custom logo for payment type"
+msgstr "Свой логотип для типа платежа"
+
+#: paygine-payment_method.php:151
+msgid "Sector ID"
+msgstr "Sector ID"
+
+#: paygine-payment_method.php:153
+msgid "Your shop identifier at Method"
+msgstr "Идентификатор вашего магазина в системе Method"
+
+#: paygine-payment_method.php:159
+msgid "Password"
+msgstr "Пароль"
+
+#: paygine-payment_method.php:161
+msgid "Password to use for digital signature"
+msgstr "Пароль для цифровой подписи"
+
+#: paygine-payment_method.php:167
+msgid "Test Mode"
+msgstr "Тестовый режим"
+
+#: paygine-payment_method.php:170
+msgid "Test mode - real payments will not be processed"
+msgstr "Тестовый режим - средства с карты не списываются"
+
+#: paygine-payment_method.php:171
+msgid "Production mode - payments will be processed"
+msgstr "Рабочий режим - средства списываются с карты"
+
+#: paygine-payment_method.php:173
+msgid "Select test or live mode"
+msgstr "Выберите тестовый или рабочий режим"
+
+#: paygine-payment_method.php:178
+msgid "Payment method"
+msgstr "Способ оплаты"
+
+#: paygine-payment_method.php:181
+msgid "Standard acquiring (one-stage payment)"
+msgstr "Стандартный эквайринг (одностадийная оплата)"
+
+#: paygine-payment_method.php:182
+msgid "Standard acquiring (two-stage payment)"
+msgstr "Стандартный эквайринг (двухстадийная оплата)"
+
+#: paygine-payment_method.php:183
+msgid "Plait (one-stage payment)"
+msgstr "Только Халва Частями (одностадийная оплата)"
+
+#: paygine-payment_method.php:184
+msgid "Plait (two-stage payment)"
+msgstr "Только Халва Частями (двухстадийная оплата)"
+
+#: paygine-payment_method.php:185
+msgid "Fast Payment System"
+msgstr "Система Быстрых Платежей (СБП)"
+
+#: paygine-payment_method.php:186
+msgid "Loan"
+msgstr "Кредитование"
+
+#: paygine-payment_method.php:188
+msgid "Payment occurs after confirmation by the manager in the personal account"
+msgstr "Оплата происходит после подтверждения менеджером в ЛК"
+
+#: paygine-payment_method.php:193
+msgid "TAX"
+msgstr "Налог"
+
+#: paygine-payment_method.php:196
+msgid "VAT rate 20%"
+msgstr "ставка НДС 20%"
+
+#: paygine-payment_method.php:197
+msgid "VAT rate 10%"
+msgstr "ставка НДС 10%"
+
+#: paygine-payment_method.php:198
+msgid "VAT rate calc. 20/120"
+msgstr "ставка НДС расч. 20/120"
+
+#: paygine-payment_method.php:199
+msgid "VAT rate calc. 10/110"
+msgstr "ставка НДС расч. 10/110"
+
+#: paygine-payment_method.php:200
+msgid "VAT rate 0%"
+msgstr "ставка НДС 0%"
+
+#: paygine-payment_method.php:201
+msgid "Not subject to VAT"
+msgstr "НДС не облагается"
+
+#: paygine-payment_method.php:206
+msgid "Notify URL"
+msgstr "URL для уведомлений"
+
+#: paygine-payment_method.php:208
+msgid "Report this URL to Method technical support to receive payment notifications"
+msgstr ""
+
+#: paygine-payment_method.php:216
+msgid "Data encryption algorithm"
+msgstr "Алгоритм шифрования данных"
+
+#: paygine-payment_method.php:222
+msgid "Must match your sector encryption settings in your personal account"
+msgstr "Должен соответствовать настройкам шифрования вашего сектора в личном кабинете"
+
+#: paygine-payment_method.php:227
+msgid "Custom statuses for orders"
+msgstr "Настраиваемые статусы для заказов"
+
+#: paygine-payment_method.php:231
+msgid "Order registered"
+msgstr "Заказ зарегистрирован"
+
+#: paygine-payment_method.php:237
+msgid "Order authorized"
+msgstr "Средства захолдированы"
+
+#: paygine-payment_method.php:243
+msgid "Loan agreement approved but not signed"
+msgstr "Кредитный договор одобрен, но не подписан"
+
+#: paygine-payment_method.php:249
+msgid "Order successfully paid"
+msgstr "Заказ успешно оплачен"
+
+#: paygine-payment_method.php:255
+msgid "Order canceled"
+msgstr "Платеж отменен"
+
+#: paygine-payment_method.php:261
+msgid "Issuing an invoice for payment"
+msgstr "Выставление счёта на оплату"
+
+#: paygine-payment_method.php:263
+msgid "Enable issuing an invoice for payment by email of the payer"
+msgstr "Включить выставление счёта на оплату на email плательщика"
+
+#: paygine-payment_method.php:267
+msgid "Order agreement"
+msgstr "Заказ на согласовании"
+
+#: paygine-payment_method.php:273
+msgid "Payment expected"
+msgstr "Ожидается оплата"
+
+#: paygine-payment_method.php:378
+msgid "Remove logo"
+msgstr "Удалить логотип"
+
+#: paygine-payment_method.php:392
+msgid "Complete payment"
+msgstr "Списать средства"
+
+#: paygine-payment_method.php:400
+msgid "Order created successfully"
+msgstr "Заказ успешно создан"
+
+#: paygine-payment_method.php:441
+msgid "Order #%s"
+msgstr "Заказ №%s"
+
+#: paygine-payment_method.php:457
+#: paygine-payment_method.php:504
+#: paygine-payment_method.php:585
+#: paygine-payment_method.php:637
+msgid "Failed to get Method order ID"
+msgstr "Не удалось получить ID заказа Method"
+
+#: paygine-payment_method.php:465
+msgid "Order registered successfully"
+msgstr "Заказ успешно зарегистрирован"
+
+#: paygine-payment_method.php:496
+#: paygine-payment_method.php:557
+msgid "Failed to pay for the order"
+msgstr "Не удалось оплатить заказ"
+
+#: paygine-payment_method.php:508
+#: paygine-payment_method.php:574
+msgid "Undefined order ID"
+msgstr "Неопределенный ID заказа"
+
+#: paygine-payment_method.php:512
+msgid "Request data is not valid"
+msgstr "Данные запроса не валидны"
+
+#: paygine-payment_method.php:521
+#: paygine-payment_method.php:581
+#: paygine-payment_method.php:627
+msgid "Failed to get order information"
+msgstr "Не удалось получить информацию о заказе"
+
+#: paygine-payment_method.php:530
+#: paygine-payment_method.php:596
+msgid "The loan agreement was successfully completed and signed"
+msgstr "Кредитный договор успешно оформлен и подписан"
+
+#: paygine-payment_method.php:530
+msgid "The loan agreement was successfully completed, but not signed"
+msgstr "Кредитный договор успешно оформлен, но не подписан"
+
+#: paygine-payment_method.php:535
+msgid "Payment authorized successfully"
+msgstr "Платеж успешно авторизован"
+
+#: paygine-payment_method.php:549
+msgid "Failed to pay incorrect card"
+msgstr "К сожалению, ваша оплата не прошла. Убедитесь что ваша карта действительна и на ней достаточно средств, затем повторите попытку оплаты"
+
+#: paygine-payment_method.php:577
+#: paygine-payment_method.php:630
+msgid "Operation failed. Please refresh the page"
+msgstr "Не удалось выполнить операцию. Обновите страницу"
+
+#: paygine-payment_method.php:593
+msgid "Unable to debit funds"
+msgstr "Невозможно списать средства"
+
+#: paygine-payment_method.php:599
+msgid "Funds for the order have been successfully debited"
+msgstr "Средства за заказ успешно списаны"
+
+#: paygine-payment_method.php:633
+msgid "Error, please enter the refund amount. Refunds must be made for the full amount of the order"
+msgstr "Ошибка, укажите сумму возврата. Возврат должен осуществляться на полную сумму заказа"
+
+#: paygine-payment_method.php:645
+msgid "Unable to issue a refund on a credit order"
+msgstr "Невозможно осуществить возврат средств по кредитному поручению"
+
+#: paygine-payment_method.php:656
+msgid "Payment canceled successfully"
+msgstr "Платеж успешно возвращен"
+
+#: paygine-payment_method.php:749
+msgid "Settings"
+msgstr "Настройки"

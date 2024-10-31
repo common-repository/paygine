@@ -1,0 +1,319 @@
+# Copyright (C) 2024 Method
+# This file is distributed under the GPL3.
+msgid ""
+msgstr ""
+"Project-Id-Version: Method payment module 3.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/paygine\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-07-25T14:26:37+00:00\n"
+"PO-Revision-Date: 2024-07-25T14:26:37+00:00\n"
+"X-Generator: WP-CLI 2.9.0\n"
+"X-Domain: paygine-payment_method\n"
+
+#. Plugin Name of the plugin
+msgid "Method payment module"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://methodpay.ru/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Receive payments via Visa / Mastercard / MIR easily with Method bank cards processing"
+msgstr ""
+
+#. Author of the plugin
+#: paygine-payment_method.php:64
+#: paygine-payment_method.php:300
+msgid "Method"
+msgstr ""
+
+#: paygine-payment_method.php:65
+msgid "To accept payments through the plugin, you need to apply to connect to Method on the website <a href=\"%1$s\" target=\"_blank\">%1$s</a> and enter into an agreement with the company.<br/>Support email: <a href=\"mailto:%2$s\">%2$s</a>"
+msgstr ""
+
+#: paygine-payment_method.php:75
+#: paygine-payment_method.php:301
+msgid "Payments with bank cards via the <a href=\"%s\" target=\"_blank\">Method</a> payment system."
+msgstr ""
+
+#: paygine-payment_method.php:98
+msgid "Pay for your order in installments"
+msgstr ""
+
+#: paygine-payment_method.php:122
+msgid "Enable/Disable"
+msgstr ""
+
+#: paygine-payment_method.php:124
+msgid "Enable Method checkout method"
+msgstr ""
+
+#: paygine-payment_method.php:128
+msgid "Title"
+msgstr ""
+
+#: paygine-payment_method.php:130
+msgid "Custom title for payment type"
+msgstr ""
+
+#: paygine-payment_method.php:136
+msgid "Description"
+msgstr ""
+
+#: paygine-payment_method.php:138
+msgid "Custom description for payment type"
+msgstr ""
+
+#: paygine-payment_method.php:144
+msgid "Logo"
+msgstr ""
+
+#: paygine-payment_method.php:146
+msgid "Custom logo for payment type"
+msgstr ""
+
+#: paygine-payment_method.php:151
+msgid "Sector ID"
+msgstr ""
+
+#: paygine-payment_method.php:153
+msgid "Your shop identifier at Method"
+msgstr ""
+
+#: paygine-payment_method.php:159
+msgid "Password"
+msgstr ""
+
+#: paygine-payment_method.php:161
+msgid "Password to use for digital signature"
+msgstr ""
+
+#: paygine-payment_method.php:167
+msgid "Test Mode"
+msgstr ""
+
+#: paygine-payment_method.php:170
+msgid "Test mode - real payments will not be processed"
+msgstr ""
+
+#: paygine-payment_method.php:171
+msgid "Production mode - payments will be processed"
+msgstr ""
+
+#: paygine-payment_method.php:173
+msgid "Select test or live mode"
+msgstr ""
+
+#: paygine-payment_method.php:178
+msgid "Payment method"
+msgstr ""
+
+#: paygine-payment_method.php:181
+msgid "Standard acquiring (one-stage payment)"
+msgstr ""
+
+#: paygine-payment_method.php:182
+msgid "Standard acquiring (two-stage payment)"
+msgstr ""
+
+#: paygine-payment_method.php:183
+msgid "Plait (one-stage payment)"
+msgstr ""
+
+#: paygine-payment_method.php:184
+msgid "Plait (two-stage payment)"
+msgstr ""
+
+#: paygine-payment_method.php:185
+msgid "Fast Payment System"
+msgstr ""
+
+#: paygine-payment_method.php:186
+msgid "Loan"
+msgstr ""
+
+#: paygine-payment_method.php:188
+msgid "Payment occurs after confirmation by the manager in the personal account"
+msgstr ""
+
+#: paygine-payment_method.php:193
+msgid "TAX"
+msgstr ""
+
+#: paygine-payment_method.php:196
+msgid "VAT rate 20%"
+msgstr ""
+
+#: paygine-payment_method.php:197
+msgid "VAT rate 10%"
+msgstr ""
+
+#: paygine-payment_method.php:198
+msgid "VAT rate calc. 20/120"
+msgstr ""
+
+#: paygine-payment_method.php:199
+msgid "VAT rate calc. 10/110"
+msgstr ""
+
+#: paygine-payment_method.php:200
+msgid "VAT rate 0%"
+msgstr ""
+
+#: paygine-payment_method.php:201
+msgid "Not subject to VAT"
+msgstr ""
+
+#: paygine-payment_method.php:206
+msgid "Notify URL"
+msgstr ""
+
+#: paygine-payment_method.php:208
+msgid "Report this URL to Method technical support to receive payment notifications"
+msgstr ""
+
+#: paygine-payment_method.php:216
+msgid "Data encryption algorithm"
+msgstr ""
+
+#: paygine-payment_method.php:222
+msgid "Must match your sector encryption settings in your personal account"
+msgstr ""
+
+#: paygine-payment_method.php:227
+msgid "Custom statuses for orders"
+msgstr ""
+
+#: paygine-payment_method.php:231
+msgid "Order registered"
+msgstr ""
+
+#: paygine-payment_method.php:237
+msgid "Order authorized"
+msgstr ""
+
+#: paygine-payment_method.php:243
+msgid "Loan agreement approved but not signed"
+msgstr ""
+
+#: paygine-payment_method.php:249
+msgid "Order successfully paid"
+msgstr ""
+
+#: paygine-payment_method.php:255
+msgid "Order canceled"
+msgstr ""
+
+#: paygine-payment_method.php:261
+msgid "Issuing an invoice for payment"
+msgstr ""
+
+#: paygine-payment_method.php:263
+msgid "Enable issuing an invoice for payment by email of the payer"
+msgstr ""
+
+#: paygine-payment_method.php:267
+msgid "Order agreement"
+msgstr ""
+
+#: paygine-payment_method.php:273
+msgid "Payment expected"
+msgstr ""
+
+#: paygine-payment_method.php:378
+msgid "Remove logo"
+msgstr ""
+
+#: paygine-payment_method.php:392
+msgid "Complete payment"
+msgstr ""
+
+#: paygine-payment_method.php:400
+msgid "Order created successfully"
+msgstr ""
+
+#: paygine-payment_method.php:441
+msgid "Order #%s"
+msgstr ""
+
+#: paygine-payment_method.php:457
+#: paygine-payment_method.php:504
+#: paygine-payment_method.php:585
+#: paygine-payment_method.php:637
+msgid "Failed to get Method order ID"
+msgstr ""
+
+#: paygine-payment_method.php:465
+msgid "Order registered successfully"
+msgstr ""
+
+#: paygine-payment_method.php:496
+#: paygine-payment_method.php:557
+msgid "Failed to pay for the order"
+msgstr ""
+
+#: paygine-payment_method.php:508
+#: paygine-payment_method.php:574
+msgid "Undefined order ID"
+msgstr ""
+
+#: paygine-payment_method.php:512
+msgid "Request data is not valid"
+msgstr ""
+
+#: paygine-payment_method.php:521
+#: paygine-payment_method.php:581
+#: paygine-payment_method.php:627
+msgid "Failed to get order information"
+msgstr ""
+
+#: paygine-payment_method.php:530
+#: paygine-payment_method.php:596
+msgid "The loan agreement was successfully completed and signed"
+msgstr ""
+
+#: paygine-payment_method.php:530
+msgid "The loan agreement was successfully completed, but not signed"
+msgstr ""
+
+#: paygine-payment_method.php:535
+msgid "Payment authorized successfully"
+msgstr ""
+
+#: paygine-payment_method.php:549
+msgid "Failed to pay incorrect card"
+msgstr ""
+
+#: paygine-payment_method.php:577
+#: paygine-payment_method.php:630
+msgid "Operation failed. Please refresh the page"
+msgstr ""
+
+#: paygine-payment_method.php:593
+msgid "Unable to debit funds"
+msgstr ""
+
+#: paygine-payment_method.php:599
+msgid "Funds for the order have been successfully debited"
+msgstr ""
+
+#: paygine-payment_method.php:633
+msgid "Error, please enter the refund amount. Refunds must be made for the full amount of the order"
+msgstr ""
+
+#: paygine-payment_method.php:645
+msgid "Unable to issue a refund on a credit order"
+msgstr ""
+
+#: paygine-payment_method.php:656
+msgid "Payment canceled successfully"
+msgstr ""
+
+#: paygine-payment_method.php:749
+msgid "Settings"
+msgstr ""

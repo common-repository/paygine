@@ -1,0 +1,214 @@
+@font-face {
+	font-family: 'Montserrat';
+	src: url('/wp-content/plugins/paygine-woocommerce/assets/fonts/Montserrat-Light.eot');
+	src: local('Montserrat Light'), local('Montserrat-Light'),
+		url('/wp-content/plugins/paygine-woocommerce/assets/fonts/Montserrat-Light.eot?#iefix') format('embedded-opentype'),
+		url('/wp-content/plugins/paygine-woocommerce/assets/fonts/Montserrat-Light.woff') format('woff'),
+		url('/wp-content/plugins/paygine-woocommerce/assets/fonts/Montserrat-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('/wp-content/plugins/paygine-woocommerce/assets/fonts/Montserrat-MediumItalic.eot');
+	src: local('Montserrat Medium Italic'), local('Montserrat-MediumItalic'),
+		url('/wp-content/plugins/paygine-woocommerce/assets/fonts/Montserrat-MediumItalic.eot?#iefix') format('embedded-opentype'),
+		url('/wp-content/plugins/paygine-woocommerce/assets/fonts/Montserrat-MediumItalic.woff') format('woff'),
+		url('/wp-content/plugins/paygine-woocommerce/assets/fonts/Montserrat-MediumItalic.ttf') format('truetype');
+	font-weight: 500;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('/wp-content/plugins/paygine-woocommerce/assets/fonts/Montserrat-Thin.eot');
+	src: local('Montserrat Thin'), local('Montserrat-Thin'),
+		url('/wp-content/plugins/paygine-woocommerce/assets/fonts/Montserrat-Thin.eot?#iefix') format('embedded-opentype'),
+		url('/wp-content/plugins/paygine-woocommerce/assets/fonts/Montserrat-Thin.woff') format('woff'),
+		url('/wp-content/plugins/paygine-woocommerce/assets/fonts/Montserrat-Thin.ttf') format('truetype');
+	font-weight: 100;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('/wp-content/plugins/paygine-woocommerce/assets/fonts/Montserrat-ExtraLightItalic.eot');
+	src: local('Montserrat ExtraLight Italic'), local('Montserrat-ExtraLightItalic'),
+		url('/wp-content/plugins/paygine-woocommerce/assets/fonts/Montserrat-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+		url('/wp-content/plugins/paygine-woocommerce/assets/fonts/Montserrat-ExtraLightItalic.woff') format('woff'),
+		url('/wp-content/plugins/paygine-woocommerce/assets/fonts/Montserrat-ExtraLightItalic.ttf') format('truetype');
+	font-weight: 200;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('/wp-content/plugins/paygine-woocommerce/assets/fonts/Montserrat-BoldItalic.eot');
+	src: local('Montserrat Bold Italic'), local('Montserrat-BoldItalic'),
+		url('/wp-content/plugins/paygine-woocommerce/assets/fonts/Montserrat-BoldItalic.eot?#iefix') format('embedded-opentype'),
+		url('/wp-content/plugins/paygine-woocommerce/assets/fonts/Montserrat-BoldItalic.woff') format('woff'),
+		url('/wp-content/plugins/paygine-woocommerce/assets/fonts/Montserrat-BoldItalic.ttf') format('truetype');
+	font-weight: bold;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('/wp-content/plugins/paygine-woocommerce/assets/fonts/Montserrat-SemiBold.eot');
+	src: local('Montserrat SemiBold'), local('Montserrat-SemiBold'),
+		url('/wp-content/plugins/paygine-woocommerce/assets/fonts/Montserrat-SemiBold.eot?#iefix') format('embedded-opentype'),
+		url('/wp-content/plugins/paygine-woocommerce/assets/fonts/Montserrat-SemiBold.woff') format('woff'),
+		url('/wp-content/plugins/paygine-woocommerce/assets/fonts/Montserrat-SemiBold.ttf') format('truetype');
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('/wp-content/plugins/paygine-woocommerce/assets/fonts/Montserrat-ExtraLight.eot');
+	src: local('Montserrat ExtraLight'), local('Montserrat-ExtraLight'),
+		url('/wp-content/plugins/paygine-woocommerce/assets/fonts/Montserrat-ExtraLight.eot?#iefix') format('embedded-opentype'),
+		url('/wp-content/plugins/paygine-woocommerce/assets/fonts/Montserrat-ExtraLight.woff') format('woff'),
+		url('/wp-content/plugins/paygine-woocommerce/assets/fonts/Montserrat-ExtraLight.ttf') format('truetype');
+	font-weight: 200;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('/wp-content/plugins/paygine-woocommerce/assets/fonts/Montserrat-ExtraBoldItalic.eot');
+	src: local('Montserrat ExtraBold Italic'), local('Montserrat-ExtraBoldItalic'),
+		url('/wp-content/plugins/paygine-woocommerce/assets/fonts/Montserrat-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+		url('/wp-content/plugins/paygine-woocommerce/assets/fonts/Montserrat-ExtraBoldItalic.woff') format('woff'),
+		url('/wp-content/plugins/paygine-woocommerce/assets/fonts/Montserrat-ExtraBoldItalic.ttf') format('truetype');
+	font-weight: 800;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('/wp-content/plugins/paygine-woocommerce/assets/fonts/Montserrat-Italic.eot');
+	src: local('Montserrat Italic'), local('Montserrat-Italic'),
+		url('/wp-content/plugins/paygine-woocommerce/assets/fonts/Montserrat-Italic.eot?#iefix') format('embedded-opentype'),
+		url('/wp-content/plugins/paygine-woocommerce/assets/fonts/Montserrat-Italic.woff') format('woff'),
+		url('/wp-content/plugins/paygine-woocommerce/assets/fonts/Montserrat-Italic.ttf') format('truetype');
+	font-weight: normal;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('/wp-content/plugins/paygine-woocommerce/assets/fonts/Montserrat-Bold.eot');
+	src: local('Montserrat Bold'), local('Montserrat-Bold'),
+		url('/wp-content/plugins/paygine-woocommerce/assets/fonts/Montserrat-Bold.eot?#iefix') format('embedded-opentype'),
+		url('/wp-content/plugins/paygine-woocommerce/assets/fonts/Montserrat-Bold.woff') format('woff'),
+		url('/wp-content/plugins/paygine-woocommerce/assets/fonts/Montserrat-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('/wp-content/plugins/paygine-woocommerce/assets/fonts/Montserrat-LightItalic.eot');
+	src: local('Montserrat Light Italic'), local('Montserrat-LightItalic'),
+		url('/wp-content/plugins/paygine-woocommerce/assets/fonts/Montserrat-LightItalic.eot?#iefix') format('embedded-opentype'),
+		url('/wp-content/plugins/paygine-woocommerce/assets/fonts/Montserrat-LightItalic.woff') format('woff'),
+		url('/wp-content/plugins/paygine-woocommerce/assets/fonts/Montserrat-LightItalic.ttf') format('truetype');
+	font-weight: 300;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('/wp-content/plugins/paygine-woocommerce/assets/fonts/Montserrat-BlackItalic.eot');
+	src: local('Montserrat Black Italic'), local('Montserrat-BlackItalic'),
+		url('/wp-content/plugins/paygine-woocommerce/assets/fonts/Montserrat-BlackItalic.eot?#iefix') format('embedded-opentype'),
+		url('/wp-content/plugins/paygine-woocommerce/assets/fonts/Montserrat-BlackItalic.woff') format('woff'),
+		url('/wp-content/plugins/paygine-woocommerce/assets/fonts/Montserrat-BlackItalic.ttf') format('truetype');
+	font-weight: 900;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('/wp-content/plugins/paygine-woocommerce/assets/fonts/Montserrat-SemiBoldItalic.eot');
+	src: local('Montserrat SemiBold Italic'), local('Montserrat-SemiBoldItalic'),
+		url('/wp-content/plugins/paygine-woocommerce/assets/fonts/Montserrat-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+		url('/wp-content/plugins/paygine-woocommerce/assets/fonts/Montserrat-SemiBoldItalic.woff') format('woff'),
+		url('/wp-content/plugins/paygine-woocommerce/assets/fonts/Montserrat-SemiBoldItalic.ttf') format('truetype');
+	font-weight: 600;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('/wp-content/plugins/paygine-woocommerce/assets/fonts/Montserrat-Regular.eot');
+	src: local('Montserrat Regular'), local('Montserrat-Regular'),
+		url('/wp-content/plugins/paygine-woocommerce/assets/fonts/Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
+		url('/wp-content/plugins/paygine-woocommerce/assets/fonts/Montserrat-Regular.woff') format('woff'),
+		url('/wp-content/plugins/paygine-woocommerce/assets/fonts/Montserrat-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('/wp-content/plugins/paygine-woocommerce/assets/fonts/Montserrat-Medium.eot');
+	src: local('Montserrat Medium'), local('Montserrat-Medium'),
+		url('/wp-content/plugins/paygine-woocommerce/assets/fonts/Montserrat-Medium.eot?#iefix') format('embedded-opentype'),
+		url('/wp-content/plugins/paygine-woocommerce/assets/fonts/Montserrat-Medium.woff') format('woff'),
+		url('/wp-content/plugins/paygine-woocommerce/assets/fonts/Montserrat-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('/wp-content/plugins/paygine-woocommerce/assets/fonts/Montserrat-ExtraBold.eot');
+	src: local('Montserrat ExtraBold'), local('Montserrat-ExtraBold'),
+		url('/wp-content/plugins/paygine-woocommerce/assets/fonts/Montserrat-ExtraBold.eot?#iefix') format('embedded-opentype'),
+		url('/wp-content/plugins/paygine-woocommerce/assets/fonts/Montserrat-ExtraBold.woff') format('woff'),
+		url('/wp-content/plugins/paygine-woocommerce/assets/fonts/Montserrat-ExtraBold.ttf') format('truetype');
+	font-weight: 800;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('/wp-content/plugins/paygine-woocommerce/assets/fonts/Montserrat-Black.eot');
+	src: local('Montserrat Black'), local('Montserrat-Black'),
+		url('/wp-content/plugins/paygine-woocommerce/assets/fonts/Montserrat-Black.eot?#iefix') format('embedded-opentype'),
+		url('/wp-content/plugins/paygine-woocommerce/assets/fonts/Montserrat-Black.woff') format('woff'),
+		url('/wp-content/plugins/paygine-woocommerce/assets/fonts/Montserrat-Black.ttf') format('truetype');
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('/wp-content/plugins/paygine-woocommerce/assets/fonts/Montserrat-ThinItalic.eot');
+	src: local('Montserrat Thin Italic'), local('Montserrat-ThinItalic'),
+		url('/wp-content/plugins/paygine-woocommerce/assets/fonts/Montserrat-ThinItalic.eot?#iefix') format('embedded-opentype'),
+		url('/wp-content/plugins/paygine-woocommerce/assets/fonts/Montserrat-ThinItalic.woff') format('woff'),
+		url('/wp-content/plugins/paygine-woocommerce/assets/fonts/Montserrat-ThinItalic.ttf') format('truetype');
+	font-weight: 100;
+	font-style: italic;
+	font-display: swap;
+}
